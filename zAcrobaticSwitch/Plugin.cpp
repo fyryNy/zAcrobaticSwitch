@@ -60,7 +60,7 @@ namespace GOTHIC_ENGINE {
       return;
     }
 
-    if (GetPlayerTalent("NPC_TALENT_ACROBAT") > 0)
+    if (GetPlayerTalent("NPC_TALENT_ACROBAT") <= 0)
     {
       return;
     }
